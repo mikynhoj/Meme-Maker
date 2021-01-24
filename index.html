@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form action ="" id="form">
+        <h1>CAN I HAZ SOME MEMEZ</h1>
+        <h3>Fill out this form to create and share some memes!</h3>
+        <div>
+            <p>Image URL: 
+                <input type="text" name="url" id="url" placeholder="What's the URL for your meme image?" autocomplete="off">
+             </p>
+             <p>Text On Top: 
+                <input type="text" name="onTop" id="onTop" placeholder="What's the text on the top?" autocomplete="off">
+            </p>
+            <p>Text on Bot: 
+                <input type="text" name="onBot" id="onBot" placeholder="What's the text on the bottom?" autocomplete="off">
+            </p>
+        </div>
+        <div class="buttonDiv">
+            <input type="submit" class="button" value="Add Memes Now!">
+        </div>
+    </form>
+    <div id="newMemes">
+
+    </div>
+    <script src=app.js></script>
+</body>
+</html>
